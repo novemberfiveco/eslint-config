@@ -1,0 +1,34 @@
+{
+  "name": "@novemberfiveco/eslint-config-next",
+  "version": "0.1.0",
+  "private": false,
+  "description": "ESLint configuration for Next.js projects used by November Five",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "next.js",
+    "nextjs",
+    "typescript"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/novemberfiveco/eslint-config",
+    "directory": "packages/next"
+  },
+  "author": "Yens Broothaers <yens@novemberfive.co>",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "eslint-config-next": "^12.1.2",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-storybook": "^0.5.7"
+  },
+  "peerDependencies": {
+    "eslint": "^7.23.0",
+    "next": ">=10.2.0",
+    "typescript": ">=3.3.1"
+  }
+}
