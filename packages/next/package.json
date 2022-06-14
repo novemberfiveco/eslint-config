@@ -13,7 +13,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/novemberfiveco/eslint-config",
+    "url": "git://github.com/novemberfiveco/eslint-config.git",
     "directory": "packages/next"
   },
   "author": "Yens Broothaers <yens@novemberfive.co>",

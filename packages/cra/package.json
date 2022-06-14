@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/novemberfiveco/eslint-config",
+    "url": "git://github.com/novemberfiveco/eslint-config.git",
     "directory": "packages/cra"
   },
   "author": "Jan Stevens <jan.stevens@novemberfive.co>",
