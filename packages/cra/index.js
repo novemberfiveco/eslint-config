@@ -14,6 +14,7 @@ module.exports = {
   ],
   plugins: ["prettier", "import", "simple-import-sort"],
   rules: {
+    "object-curly-spacing": ["warn", "always"],
     "import/no-anonymous-default-export": "off",
     "react/jsx-key": "error",
     "@typescript-eslint/no-explicit-any": "error",
