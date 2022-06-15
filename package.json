@@ -1,12 +1,13 @@
 {
-  "name": "@novemberfiveco/eslint-config",
-  "version": "0.1.0",
-  "private": false,
-  "respository": {
+  "private": true,
+  "repository": {
     "type": "git",
     "url": "git://github.com/novemberfiveco/eslint-config.git"
   },
   "workspaces": [
     "packages/*"
- ]
+  ],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
 }

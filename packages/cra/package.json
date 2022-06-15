@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/eslint-config-cra",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "private": false,
   "description": "ESLint configuration for Create React App projects used by November Five",
   "keywords": [
@@ -18,16 +18,16 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.31.0",
-    "@typescript-eslint/parser": "^4.31.0",
-    "prettier": "^2.4.0",
-    "typescript": "^4.4.3"
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "prettier": "^2.7.0"
+
   },
   "gitHead": "925b869f4d667309c03217ee2d20123f8016851e",
   "peerDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-flowtype": "^5.9.2",
     "eslint-plugin-import": "^2.24.2",
@@ -38,6 +38,10 @@
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint-plugin-testing-library": "^4.12.2"
+    "eslint-plugin-testing-library": "^4.12.2",
+    "typescript": ">=3.3.1"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
