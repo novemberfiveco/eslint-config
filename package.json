@@ -5,9 +5,13 @@
     "url": "git://github.com/novemberfiveco/eslint-config.git"
   },
   "workspaces": [
-    "packages/*"
+    "packages/**"
   ],
   "publishConfig": {
     "registry":"https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "publish:cra": "yarn workspace @novemberfiveco/eslint-config-cra publish",
+    "publish:next": "yarn workspace @novemberfiveco/eslint-config-next publish"
   }
 }
