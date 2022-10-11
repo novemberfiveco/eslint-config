@@ -1,0 +1,42 @@
+{
+  "name": "@novemberfiveco/eslint-config-vite",
+  "version": "0.0.1",
+  "private": false,
+  "description": "ESLint configuration for Vite projects used by November Five",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "vite",
+    "vitejs",
+    "typescript"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/novemberfiveco/eslint-config.git",
+    "directory": "packages/vite"
+  },
+  "author": "Adriaan Marain <adriaan@novemberfive.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.1.1",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-storybook": "^0.6.6"
+  },
+  "peerDependencies": {
+    "eslint": "^7.23.0 || ^8.0.0",
+    "prettier": "^2.7.0",
+    "typescript": ">=4.5.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
