@@ -40,5 +40,8 @@
     "typescript": ">=3.3.1"
   },
   "homepage": "https://github.com/novemberfiveco/eslint-config#readme",
-  "devDependencies": {}
+  "devDependencies": {},
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
 }
