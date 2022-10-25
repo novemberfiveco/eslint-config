@@ -35,8 +35,5 @@
     "eslint": "^7.23.0 || ^8.0.0",
     "prettier": "^2.7.0",
     "typescript": ">=4.5.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
