@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/eslint-config-next",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "private": false,
   "description": "ESLint configuration for Next.js projects used by November Five",
   "keywords": [
@@ -39,6 +39,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org"
+    "registry":"https://npm.pkg.github.com"
   }
 }

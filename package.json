@@ -11,5 +11,9 @@
     "publish:cra": "yarn workspace @novemberfiveco/eslint-config-cra publish",
     "publish:next": "yarn workspace @novemberfiveco/eslint-config-next publish",
     "publish:vite": "yarn workspace @novemberfiveco/eslint-config-vite publish"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry":"https://npm.pkg.github.com"
   }
 }

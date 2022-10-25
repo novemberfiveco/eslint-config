@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/eslint-config-cra",
-  "version": "0.5.1",
+  "version": "0.5.0",
   "private": false,
   "description": "ESLint configuration for Create React App projects used by November Five",
   "keywords": [
@@ -43,6 +43,6 @@
   "devDependencies": {},
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org"
+    "registry":"https://npm.pkg.github.com"
   }
 }
