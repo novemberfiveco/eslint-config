@@ -16,6 +16,8 @@
     "url": "git://github.com/novemberfiveco/eslint-config.git",
     "directory": "packages/next"
   },
+  "homepage": "https://github.com/novemberfiveco/eslint-config#readme",
+  "devDependencies": {},
   "author": "Yens Broothaers <yens@novemberfive.co>",
   "license": "MIT",
   "dependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/eslint-config-cra",
-  "version": "0.5.3",
+  "version": "0.5.0",
   "private": false,
   "description": "ESLint configuration for Create React App projects used by November Five",
   "keywords": [
@@ -22,7 +22,6 @@
     "@typescript-eslint/parser": "^5.28.0",
     "prettier": "^2.7.0"
   },
-  "gitHead": "925b869f4d667309c03217ee2d20123f8016851e",
   "peerDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
@@ -39,5 +38,7 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-testing-library": "^4.12.2",
     "typescript": ">=3.3.1"
-  }
+  },
+  "homepage": "https://github.com/novemberfiveco/eslint-config#readme",
+  "devDependencies": {}
 }
