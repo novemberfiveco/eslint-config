@@ -42,6 +42,7 @@
   "homepage": "https://github.com/novemberfiveco/eslint-config#readme",
   "devDependencies": {},
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org"
   }
 }
