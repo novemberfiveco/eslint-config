@@ -1,6 +1,19 @@
+/*
+ * @rushstack/eslint-patch is used to include plugins as dev
+ * dependencies instead of imposing them as peer dependencies
+ *
+ * https://www.npmjs.com/package/@rushstack/eslint-patch
+ */
+
+require("@rushstack/eslint-patch/modern-module-resolution");
+
 module.exports = {
   env: { es6: true },
-  extends: ["next", "plugin:storybook/recommended", "plugin:prettier/recommended"],
+  extends: [
+    "next",
+    "plugin:storybook/recommended",
+    "plugin:prettier/recommended",
+  ],
   plugins: ["prettier", "simple-import-sort", "@typescript-eslint"],
   rules: {
     "object-curly-spacing": ["warn", "always"],
