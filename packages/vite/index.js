@@ -5,10 +5,13 @@
  * https://www.npmjs.com/package/@rushstack/eslint-patch
  */
 
+require("@rushstack/eslint-patch/modern-module-resolution");
+
 module.exports = {
   env: { es6: true },
   extends: [
     "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
     "plugin:storybook/recommended",
     "plugin:prettier/recommended",
