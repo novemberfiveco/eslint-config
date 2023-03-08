@@ -5,8 +5,11 @@
  * https://www.npmjs.com/package/@rushstack/eslint-patch
  */
 
+<<<<<<< HEAD
 require("@rushstack/eslint-patch/modern-module-resolution");
 
+=======
+>>>>>>> 54015d94c87865afbfcc689b1e5440df209f20fe
 module.exports = {
   env: { es6: true },
   extends: [
