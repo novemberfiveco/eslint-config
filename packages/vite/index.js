@@ -34,6 +34,7 @@ module.exports = {
     },
   },
   rules: {
+    "react/prop-types": "off",
     "jest/no-deprecated-functions": "off",
     "object-curly-spacing": ["warn", "always"],
     "import/no-anonymous-default-export": "off",
