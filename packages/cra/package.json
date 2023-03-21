@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/eslint-config-cra",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": false,
   "description": "ESLint configuration for Create React App projects used by November Five",
   "keywords": [
@@ -36,5 +36,8 @@
     "prettier": ">=2.8.5"
   },
   "homepage": "https://github.com/novemberfiveco/eslint-config#readme",
-  "devDependencies": {}
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }
