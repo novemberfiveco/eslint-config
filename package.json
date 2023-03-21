@@ -4,16 +4,17 @@
     "type": "git",
     "url": "git://github.com/novemberfiveco/eslint-config.git"
   },
+  "engines": {
+    "node": ">=18.15.0",
+    "npm": ">= 9",
+    "yarn": "please-use-npm"
+  },
   "workspaces": [
     "packages/**"
   ],
   "scripts": {
-    "publish:cra": "yarn workspace @novemberfiveco/eslint-config-cra publish",
-    "publish:next": "yarn workspace @novemberfiveco/eslint-config-next publish",
-    "publish:vite": "yarn workspace @novemberfiveco/eslint-config-vite publish"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry":"https://npm.pkg.github.com"
+    "publish:cra": "npm publish --workspace=@novemberfiveco/eslint-config-cra",
+    "publish:next": "npm publish --workspace=@novemberfiveco/eslint-config-next",
+    "publish:vite": "npm publish --workspace=@novemberfiveco/eslint-config-vite"
   }
 }
