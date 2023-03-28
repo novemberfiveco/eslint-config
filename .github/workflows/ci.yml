@@ -32,10 +32,6 @@ on:
         description: Dry run release
         default: false
 
-permissions:
-  repository-projects: write
-  contents: write
-
 jobs:
   publish:
     if: github.repository == 'novemberfiveco/eslint-config' && github.ref == 'refs/heads/master'
@@ -68,7 +64,7 @@ jobs:
       - name: Release
         run: npm run release:${PACKAGE_ARG} -- --ci --verbose $TYPE_ARG $BETA_ARG $DRY_ARG
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PUSH_TOKEN }}
           PACKAGE_ARG: ${{ inputs.package || 'none' }}
           TYPE_ARG: ${{ fromJSON('{"auto":"", "patch":"--patch", "minor":"--minor", "major":"--major"}')[github.event.inputs.type] }}
           BETA_ARG: ${{ inputs.beta == true && '--preRelease=beta' || '' }}
