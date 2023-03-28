@@ -17,16 +17,11 @@ on:
         type: choice
         description: "Choose the release type"
         options:
-          - auto
           - patch
           - minor
           - major
         required: true
-        default: auto
-      beta:
-        type: boolean
-        description: Prerelease
-        default: false
+        default: patch
       dry:
         type: boolean
         description: Dry run release
@@ -62,12 +57,11 @@ jobs:
         run: npm ci
 
       - name: Release
-        run: npm run release:${PACKAGE_ARG} -- --ci --verbose $TYPE_ARG $BETA_ARG $DRY_ARG
+        run: npm run release:${PACKAGE_ARG} -- -- --ci -V --increment $TYPE_ARG $DRY_ARG
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PUSH_TOKEN }}
           PACKAGE_ARG: ${{ inputs.package || 'none' }}
-          TYPE_ARG: ${{ fromJSON('{"auto":"", "patch":"--patch", "minor":"--minor", "major":"--major"}')[github.event.inputs.type] }}
-          BETA_ARG: ${{ inputs.beta == true && '--preRelease=beta' || '' }}
+          TYPE_ARG: ${{ inputs.type }}
           DRY_ARG: ${{ inputs.dry == true && '--dry-run' || '' }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
