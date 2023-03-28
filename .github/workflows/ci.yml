@@ -23,6 +23,9 @@ on:
         description: Dry run release
         default: false
 
+permissions:
+  repository-projects: write
+
 jobs:
   publish:
     if: github.repository == 'novemberfiveco/eslint-config' && github.ref == 'refs/heads/master'
