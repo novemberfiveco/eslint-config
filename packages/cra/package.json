@@ -79,6 +79,7 @@
         "infile": "CHANGELOG.md",
         "ignoreRecommendedBump": true
       }
-    }
+    },
+    "npm": false
   }
 }
