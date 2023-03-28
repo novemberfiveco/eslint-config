@@ -1,4 +1,5 @@
 name: Release eslint-config
+run-name: Release @novemberfiveco/eslint-config-${{ inputs.package }}
 concurrency:
   group: publish-${{ github.github.base_ref }}
   cancel-in-progress: true
