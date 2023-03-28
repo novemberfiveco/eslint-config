@@ -1,5 +1,7 @@
 
 
+### [0.1.1](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-cra@0.1.0...eslint-config-cra@0.1.1) (2023-03-28)
+
 ## 0.1.0 (2023-03-28)
 
 
