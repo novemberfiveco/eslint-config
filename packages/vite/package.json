@@ -46,12 +46,12 @@
   "release-it": {
     "git": {
       "commitMessage": "chore: release v${version}",
-      "tagName": "eslint-config-next@${version}"
+      "tagName": "eslint-config-vite@${version}"
     },
     "github": {
       "release": true,
       "autoGenerate": true,
-      "releaseName": "esling-config-next@${version}",
+      "releaseName": "esling-config-vite@${version}",
       "tokenRef": "GITHUB_TOKEN"
     },
     "plugins": {
