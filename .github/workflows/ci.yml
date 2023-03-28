@@ -34,6 +34,7 @@ on:
 
 permissions:
   repository-projects: write
+  contents: write
 
 jobs:
   publish:
