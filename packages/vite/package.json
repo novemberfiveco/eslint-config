@@ -28,6 +28,10 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-storybook": "^0.6.11"
   },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
+    "release-it": "^15.9.3"
+  },
   "peerDependencies": {
     "eslint": "^7.32.0 || ^8.0.0",
     "prettier": ">=2.8.5",
@@ -35,5 +39,43 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release v${version}",
+      "tagName": "eslint-config-next@${version}"
+    },
+    "github": {
+      "release": true,
+      "autoGenerate": true,
+      "releaseName": "esling-config-next@${version}",
+      "tokenRef": "GITHUB_TOKEN"
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": {
+          "name": "conventionalcommits",
+          "types": [
+            {
+              "type": "feat",
+              "section": "Features"
+            },
+            {
+              "type": "fix",
+              "section": "Bug Fixes"
+            },
+            {
+              "type": "perf",
+              "section": "Performance improvements"
+            }
+          ]
+        },
+        "infile": "CHANGELOG.md",
+        "ignoreRecommendedBump": true
+      }
+    }
   }
 }

@@ -13,49 +13,8 @@
     "packages/**"
   ],
   "scripts": {
-    "release": "release-it",
-    "publish:cra": "npm publish --workspace=@novemberfiveco/eslint-config-cra",
-    "publish:next": "npm publish --workspace=@novemberfiveco/eslint-config-next",
-    "publish:vite": "npm publish --workspace=@novemberfiveco/eslint-config-vite"
-  },
-  "devDependencies": {
-    "@release-it-plugins/workspaces": "^3.2.0",
-    "@release-it/conventional-changelog": "^5.1.1",
-    "release-it": "^15.9.3"
-  },
-  "release-it": {
-    "git": {
-      "commitMessage": "chore: release v${version}"
-    },
-    "github": {
-      "release": true,
-      "autoGenerate": true,
-      "tokenRef": "GITHUB_TOKEN"
-    },
-    "plugins": {
-      "@release-it-plugins/workspaces": true,
-      "@release-it/conventional-changelog": {
-        "preset": {
-          "name": "conventionalcommits",
-          "types": [
-            {
-              "type": "feat",
-              "section": "Features"
-            },
-            {
-              "type": "fix",
-              "section": "Bug Fixes"
-            },
-            {
-              "type": "perf",
-              "section": "Performance improvements"
-            }
-          ]
-        },
-        "infile": "CHANGELOG.md",
-        "ignoreRecommendedBump": true
-      }
-    },
-    "npm": false
+    "release:cra": "npm run release --workspace=@novemberfiveco/eslint-config-cra",
+    "release:next": "npm run release --workspace=@novemberfiveco/eslint-config-next",
+    "release:vite": "npm run release --workspace=@novemberfiveco/eslint-config-vite"
   }
 }
