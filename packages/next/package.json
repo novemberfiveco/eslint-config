@@ -15,15 +15,15 @@
   "author": "Yens Broothaers <yens@novemberfive.co>",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.56.0",
-    "@typescript-eslint/parser": "^5.56.0",
-    "eslint-config-next": "^12.3.4",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-storybook": "^0.6.11"
+    "@typescript-eslint/eslint-plugin": "6.5.0",
+    "@typescript-eslint/parser": "6.5.0",
+    "eslint-config-next": "^13.4.19",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "5.0.0",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-simple-import-sort": "10.0.0",
+    "eslint-plugin-storybook": "0.6.13"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^5.1.1",
@@ -32,7 +32,7 @@
   "peerDependencies": {
     "eslint": "^7.32.0 || ^8.0.0",
     "next": ">=12.3.4",
-    "prettier": ">=2.8.5",
+    "prettier": ">=3.0.3",
     "typescript": ">=4.0.0"
   },
   "publishConfig": {
