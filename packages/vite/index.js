@@ -35,10 +35,12 @@ module.exports = {
   },
   rules: {
     "react/prop-types": "off",
+    "react/jsx-key": "error",
     "jest/no-deprecated-functions": "off",
     "object-curly-spacing": ["warn", "always"],
     "import/no-anonymous-default-export": "off",
-    "react/jsx-key": "error",
+    "no-unused-vars": "off",
+    "no-console": ["warn", { allow: ["warn", "error", "info"] }],
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/no-empty-interface": [
       "error",
@@ -48,8 +50,6 @@ module.exports = {
     ],
     "@typescript-eslint/array-type": ["warn"],
     "@typescript-eslint/no-non-null-assertion": ["warn"],
-    "no-unused-vars": "off",
-    "no-console": ["warn", { allow: ["warn", "error", "info"] }],
     "@typescript-eslint/no-unused-vars": [
       "warn",
       {
