@@ -1,5 +1,12 @@
 
 
+## [0.4.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-next@0.3.1...eslint-config-next@0.4.0) (2023-09-11)
+
+
+### Features
+
+* add prettier 3.0 support for next and vite ([1c04b92](https://github.com/novemberfiveco/eslint-config/commit/1c04b92f56564299ada70f2ce9b392c8d8b9b2a2))
+
 ### 0.3.1 (2023-03-28)
 
 
