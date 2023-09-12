@@ -1,12 +1,15 @@
 # November Five: eslint-config
-Our standardized eslint config. This monorepo consists of 3 packages: 
- - @novemberfive/eslint-config-cra: The Create React App eslint config.
- - @novemberfive/eslint-config-next: The Next.js eslint config.
- - @novemberfive/eslint-config-vite: The Vite eslint config.
+
+Our standardized eslint config. This monorepo consists of 4 packages:
+
+- @novemberfive/eslint-config-cra: The Create React App eslint config.
+- @novemberfive/eslint-config-next: The Next.js eslint config.
+- @novemberfive/eslint-config-vite: The Vite eslint config.
+- @novemberfive/eslint-config-serverless: The Serverless eslint config.
 
 ## Installation
-You can follow [this guide](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package) on how to install packages from GitHub Packages. 
 
+You can follow [this guide](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package) on how to install packages from GitHub Packages.
 
 ## License
 
