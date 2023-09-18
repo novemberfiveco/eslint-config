@@ -46,6 +46,7 @@ module.exports = {
         allowSingleExtends: false,
       },
     ],
+    "@typescript-eslint/array-type": ["error", { default: "generic" }],
     "@typescript-eslint/no-non-null-assertion": ["warn"],
     "@typescript-eslint/no-floating-promises": [
       "error",
