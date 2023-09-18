@@ -54,7 +54,25 @@ module.exports = {
     "import/newline-after-import": ["error", { count: 1 }],
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
-    "simple-import-sort/imports": ["warn"],
+    "simple-import-sort/imports": [
+      "warn",
+      {
+        groups: [
+          ["^\\u0000"],
+          ["^@?\\w"],
+          ["^config"],
+          ["^[^.]"],
+          ["^utils"],
+          ["^types|^constants|^errors|^middlewares"],
+          ["^schemas|^serializers|^deserializers"],
+          ["^database|dynamodb"],
+          ["^clients"],
+          ["^repositories"],
+          ["^managers"],
+          ["^\\."],
+        ],
+      },
+    ],
     "simple-import-sort/exports": "warn",
     "unused-imports/no-unused-vars": [
       "warn",
