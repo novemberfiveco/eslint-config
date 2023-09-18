@@ -10,14 +10,15 @@ require("@rushstack/eslint-patch/modern-module-resolution");
 module.exports = {
   env: { es6: true, node: true },
   parserOptions: {
-    project: true,
-    tsconfigRootDir: __dirname,
+    project: "./tsconfig.json",
+    tsconfigRootDir: "./",
   },
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:prettier/recommended",
+    "@serverless/eslint-config",
   ],
   plugins: [
     "@typescript-eslint",
@@ -51,9 +52,10 @@ module.exports = {
       { ignoreVoid: true, ignoreIIFE: true },
     ],
     "import/newline-after-import": ["error", { count: 1 }],
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
     "simple-import-sort/imports": ["warn"],
     "simple-import-sort/exports": "warn",
-
     "unused-imports/no-unused-vars": [
       "warn",
       {
@@ -64,5 +66,11 @@ module.exports = {
       },
     ],
     "unused-imports/no-unused-imports": "error",
+    quotes: ["error", "double", { avoidEscape: true }],
+    "no-console": "warn",
+    radix: "off",
+    "dot-notation": "off",
+    "no-shadow": "off",
+    "consistent-return": "off",
   },
 };
