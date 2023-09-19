@@ -12,6 +12,7 @@ on:
           - cra
           - next
           - vite
+          - serverless
         type: choice
         required: true
       type:
