@@ -1,5 +1,12 @@
 
 
+### [0.2.1](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-serverless@0.2.0...eslint-config-serverless@0.2.1) (2023-09-19)
+
+
+### Bug Fixes
+
+* add missing deps in package json ([7acfe30](https://github.com/novemberfiveco/eslint-config/commit/7acfe30feb8af89e1e9bc0dc5db1c3a5a22bee5e))
+
 ## 0.2.0 (2023-09-19)
 
 
