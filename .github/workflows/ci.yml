@@ -13,6 +13,7 @@ on:
           - next
           - vite
           - serverless
+          - react-native
         type: choice
         required: true
       type:

@@ -6,6 +6,7 @@ Our standardized eslint config. This monorepo consists of 4 packages:
 - @novemberfive/eslint-config-next: The Next.js eslint config.
 - @novemberfive/eslint-config-vite: The Vite eslint config.
 - @novemberfive/eslint-config-serverless: The Serverless eslint config.
+- @novemberfive/eslint-config-react-native: The React Native eslint config.
 
 ## Installation
 
