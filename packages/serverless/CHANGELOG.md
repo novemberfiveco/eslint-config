@@ -1,5 +1,18 @@
 
 
+## [0.3.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-serverless@0.2.1...eslint-config-serverless@0.3.0) (2023-10-26)
+
+
+### Features
+
+* react native config ([a6c8cb9](https://github.com/novemberfiveco/eslint-config/commit/a6c8cb974c2e082f8a035c73b6ec001ff8abcdb2))
+* react native config ([bfb5bf9](https://github.com/novemberfiveco/eslint-config/commit/bfb5bf94df6ac898137d0dcea4259b77ccb6c1e0))
+
+
+### Bug Fixes
+
+* allow minor patch updates + bump deps ([#10](https://github.com/novemberfiveco/eslint-config/issues/10)) ([bd06122](https://github.com/novemberfiveco/eslint-config/commit/bd06122161f8a1c6cc49d4da22553a3acedacbc8))
+
 ### [0.2.1](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-serverless@0.2.0...eslint-config-serverless@0.2.1) (2023-09-19)
 
 
