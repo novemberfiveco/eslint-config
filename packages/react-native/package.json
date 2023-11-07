@@ -14,7 +14,7 @@
   "author": "Lazlo De Bock <lazlo.debock@novemberfive.co>",
   "license": "MIT",
   "dependencies": {
-    "@react-native/eslint-config": "^0.74.0",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-prettier": "^5.0.1",
