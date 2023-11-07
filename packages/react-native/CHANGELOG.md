@@ -1,5 +1,13 @@
 
 
+## [0.5.1](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-react-native@0.5.0...eslint-config-react-native@0.5.1) (2023-11-07)
+
+
+### Bug Fixes
+
+* react native config ([f12ecf4](https://github.com/novemberfiveco/eslint-config/commit/f12ecf4dd839b56111ffa754f60525310769b927))
+* react native config ([da9f9d2](https://github.com/novemberfiveco/eslint-config/commit/da9f9d20f069c7c330f026acf37525abead9a7c6))
+
 ## 0.5.0 (2023-10-26)
 
 
