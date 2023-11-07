@@ -11,7 +11,6 @@ module.exports = {
   root: true,
   env: { es6: true },
   extends: [
-    "@react-native-community",
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
