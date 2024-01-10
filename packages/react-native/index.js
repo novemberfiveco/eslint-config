@@ -140,7 +140,6 @@ module.exports = {
 
     curly: 1, // specify curly brace conventions for all control statements
     radix: 1, // require use of the second argument for parseInt()
-    "no-reserved-keys": 2, // disallow reserved words being used as object literal keys (off by default)
     "object-curly-spacing": ["warn", "always"],
     "no-unused-vars": "off",
     "no-console": ["warn", { allow: ["warn", "error", "info"] }],
