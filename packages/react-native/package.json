@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/eslint-config-react-native",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "private": false,
   "description": "ESLint configuration for React Native projects used by November Five",
   "keywords": [
