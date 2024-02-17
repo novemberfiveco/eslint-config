@@ -1,5 +1,28 @@
 
 
+## [1.4.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-cra@1.3.0...eslint-config-cra@1.4.0) (2024-02-17)
+
+
+### Features
+
+* add grouping rules for import sort ([bfba854](https://github.com/novemberfiveco/eslint-config/commit/bfba854ed5549bd9efe5c0d954e7ff5efaa99fa1))
+* add nvmrc ([c3708e5](https://github.com/novemberfiveco/eslint-config/commit/c3708e5b6429100d74e3c778a7ba5af866664a5e))
+* add prettier 3.0 support for next and vite ([1c04b92](https://github.com/novemberfiveco/eslint-config/commit/1c04b92f56564299ada70f2ce9b392c8d8b9b2a2))
+* add serverless eslint config ([882d094](https://github.com/novemberfiveco/eslint-config/commit/882d0940a6878ebc7638075bba84bd34c90c2ff2))
+* initial version ([0a45f09](https://github.com/novemberfiveco/eslint-config/commit/0a45f09600ddd2befcf89e2ccc0f5ed6c71ebff5))
+* react native config ([a6c8cb9](https://github.com/novemberfiveco/eslint-config/commit/a6c8cb974c2e082f8a035c73b6ec001ff8abcdb2))
+* react native config ([bfb5bf9](https://github.com/novemberfiveco/eslint-config/commit/bfb5bf94df6ac898137d0dcea4259b77ccb6c1e0))
+
+
+### Bug Fixes
+
+* add missing deps in package json ([7acfe30](https://github.com/novemberfiveco/eslint-config/commit/7acfe30feb8af89e1e9bc0dc5db1c3a5a22bee5e))
+* allow minor patch updates + bump deps ([#10](https://github.com/novemberfiveco/eslint-config/issues/10)) ([bd06122](https://github.com/novemberfiveco/eslint-config/commit/bd06122161f8a1c6cc49d4da22553a3acedacbc8))
+* package lock ([b2c4679](https://github.com/novemberfiveco/eslint-config/commit/b2c4679778aad397df965cd3424995d2c705ad3b))
+* react native config ([f12ecf4](https://github.com/novemberfiveco/eslint-config/commit/f12ecf4dd839b56111ffa754f60525310769b927))
+* react native config ([da9f9d2](https://github.com/novemberfiveco/eslint-config/commit/da9f9d20f069c7c330f026acf37525abead9a7c6))
+* remove deprecated rule ([915a33a](https://github.com/novemberfiveco/eslint-config/commit/915a33a9ce003a0d97106c29d59da02a4972e457))
+
 ## 1.3.0 (2023-03-28)
 
 
