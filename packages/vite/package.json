@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/eslint-config-vite",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": false,
   "description": "ESLint configuration for Vite projects used by November Five",
   "keywords": [
