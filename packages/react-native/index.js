@@ -98,7 +98,10 @@ module.exports = {
         allowSingleExtends: false,
       },
     ],
-    "@typescript-eslint/array-type": ["warn"],
+    "@typescript-eslint/array-type": [
+      "warn",
+      { default: "generic", readonly: "generic" },
+    ],
     "@typescript-eslint/no-non-null-assertion": ["warn"],
     "@typescript-eslint/no-unused-vars": [
       "warn",
