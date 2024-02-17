@@ -33,7 +33,10 @@ module.exports = {
         allowSingleExtends: false,
       },
     ],
-    "@typescript-eslint/array-type": ["warn"],
+    "@typescript-eslint/array-type": [
+      "warn",
+      { default: "generic", readonly: "generic" },
+    ],
     "@typescript-eslint/no-non-null-assertion": ["warn"],
     "no-unused-vars": "off",
     "no-console": ["warn", { allow: ["warn", "error", "info"] }],
