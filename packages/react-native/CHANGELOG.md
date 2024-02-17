@@ -1,5 +1,7 @@
 
 
+## [0.7.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-react-native@0.6.0...eslint-config-react-native@0.7.0) (2024-02-17)
+
 ## [0.6.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-react-native@0.5.2...eslint-config-react-native@0.6.0) (2024-01-10)
 
 
