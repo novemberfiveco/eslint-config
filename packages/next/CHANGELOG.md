@@ -1,5 +1,12 @@
 
 
+## [1.0.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-next@0.7.0...eslint-config-next@1.0.0) (2024-03-01)
+
+
+### Features
+
+* upgrade to typescript-eslint v7 vite ([0867f5e](https://github.com/novemberfiveco/eslint-config/commit/0867f5e0937b8a2889e8bc1bcaa4bf30eca26e42))
+
 ## [0.7.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-next@0.6.0...eslint-config-next@0.7.0) (2024-02-21)
 
 
