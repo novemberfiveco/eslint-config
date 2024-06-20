@@ -1,5 +1,18 @@
 
 
+## [0.4.1](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-serverless@0.4.0...eslint-config-serverless@0.4.1) (2024-06-20)
+
+
+### Features
+
+* upgrade to typescript-eslint v7 vite ([0867f5e](https://github.com/novemberfiveco/eslint-config/commit/0867f5e0937b8a2889e8bc1bcaa4bf30eca26e42))
+* upgrade to typescript-eslint-v7-nextjs ([4b7b5bb](https://github.com/novemberfiveco/eslint-config/commit/4b7b5bb4502d5eb3385f7205c3559c8a3fbc67f9))
+
+
+### Bug Fixes
+
+* package.lock ([c04f80c](https://github.com/novemberfiveco/eslint-config/commit/c04f80c0155dbf76da8e6466241fffb4b7f1d4c7))
+
 ## [0.4.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-serverless@0.3.0...eslint-config-serverless@0.4.0) (2024-02-17)
 
 
