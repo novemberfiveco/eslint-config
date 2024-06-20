@@ -94,5 +94,6 @@ module.exports = {
     "dot-notation": "off",
     "no-shadow": "off",
     "consistent-return": "off",
+    "no-case-declarations": "off",
   },
 };
