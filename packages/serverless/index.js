@@ -10,15 +10,16 @@ require("@rushstack/eslint-patch/modern-module-resolution");
 module.exports = {
   env: { es6: true, node: true },
   parserOptions: {
-    project: "./tsconfig.json",
+    project: "./tsconfig.eslint.json",
     tsconfigRootDir: "./",
   },
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:prettier/recommended",
-    "@serverless/eslint-config",
+    "plugin:drizzle/recommended",
   ],
   plugins: [
     "@typescript-eslint",
@@ -26,6 +27,7 @@ module.exports = {
     "prettier",
     "simple-import-sort",
     "unused-imports",
+    "drizzle",
   ],
   rules: {
     "no-unused-vars": "off",
@@ -37,6 +39,8 @@ module.exports = {
         ignoreRestSiblings: true,
         argsIgnorePattern: "^_",
         varsIgnorePattern: "^_",
+        caughtErrorsIgnorePattern: "^_",
+        destructuredArrayIgnorePattern: "^_",
       },
     ],
     "@typescript-eslint/no-explicit-any": "error",
@@ -55,8 +59,8 @@ module.exports = {
       "error",
       { ignoreVoid: true, ignoreIIFE: true },
     ],
+    "@typescript-eslint/restrict-template-expressions": "off",
     "import/newline-after-import": ["error", { count: 1 }],
-    "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
     "simple-import-sort/imports": [
       "warn",
@@ -78,15 +82,7 @@ module.exports = {
       },
     ],
     "simple-import-sort/exports": "warn",
-    "unused-imports/no-unused-vars": [
-      "warn",
-      {
-        vars: "all",
-        varsIgnorePattern: "^_",
-        args: "after-used",
-        argsIgnorePattern: "^_",
-      },
-    ],
+    "unused-imports/no-unused-vars": "off",
     "unused-imports/no-unused-imports": "error",
     quotes: ["error", "double", { avoidEscape: true }],
     "no-console": "warn",
