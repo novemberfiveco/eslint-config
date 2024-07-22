@@ -19,6 +19,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:prettier/recommended",
+    "plugin:drizzle/recommended",
   ],
   plugins: [
     "@typescript-eslint",
@@ -26,6 +27,7 @@ module.exports = {
     "prettier",
     "simple-import-sort",
     "unused-imports",
+    "drizzle",
   ],
   rules: {
     "no-unused-vars": "off",
