@@ -1,5 +1,12 @@
 
 
+## [1.0.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-serverless@0.4.1...eslint-config-serverless@1.0.0) (2024-07-22)
+
+
+### Features
+
+* add drizzle eslint plugin ([0b8bd99](https://github.com/novemberfiveco/eslint-config/commit/0b8bd99ab5c7a6321933982b4053a81dde1b3dbc))
+
 ## [0.4.1](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-serverless@0.4.0...eslint-config-serverless@0.4.1) (2024-06-20)
 
 
