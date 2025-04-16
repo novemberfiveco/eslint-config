@@ -1,19 +1,30 @@
-# November Five: eslint-config
+# November Five ESLint Config
 
-Our standardized eslint config. This monorepo consists of 4 packages:
+A collection of standardized ESLint configurations for various TypeScript environments.
 
-- ~~@novemberfive/eslint-config-cra: The Create React App eslint config.~~ (Deprecated)
-- @novemberfiveco/eslint-config-next: The Next.js eslint config.
-- @novemberfiveco/eslint-config-vite: The Vite eslint config.
-- @novemberfiveco/eslint-config-serverless: The Serverless eslint config.
-- [@novemberfiveco/eslint-config-react-native](https://github.com/novemberfiveco/eslint-config/blob/master/packages/react-native/README.md): The React Native eslint config.
+## Packages
+
+This monorepo consists of the following packages:
+
+- `@novemberfiveco/eslint-config-typescript` - Our base TypeScript ESLint configuration that all other packages extend from. Can also be used standalone for any TypeScript project or as the foundation for new framework-specific configurations.
+- `@novemberfiveco/eslint-config-next` - Next.js ESLint config (extends `@novemberfiveco/eslint-config-typescript`)
+- `@novemberfiveco/eslint-config-vite` - Vite ESLint config (extends `@novemberfiveco/eslint-config-typescript`)
+- `@novemberfiveco/eslint-config-serverless` - Serverless ESLint config (extends `@novemberfiveco/eslint-config-typescript`)
+- `@novemberfiveco/eslint-config-react-native` - [React Native ESLint config](https://github.com/novemberfiveco/eslint-config/blob/master/packages/react-native/README.md) (extends `@novemberfiveco/eslint-config-typescript`)
 
 ## Installation
 
-You can follow [this guide](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package) on how to install packages from GitHub Packages.
+```bash
+npm install @novemberfiveco/eslint-config-{package-name} --save-dev
+```
+
+### Version Compatibility
+
+- For ESLint v9 (Flat Config): Use the latest versions
+- For ESLint v8 or below: Use versions `<=1.x.x`
 
 ## License
 
-Copyright (c) [November Five BVBA](https://novemberfive.co). All rights reserved.
+Copyright © [November Five BVBA](https://novemberfive.co). All rights reserved.
 
-Licensed under the [MIT](LICENSE) License.
+Licensed under the [MIT License](LICENSE).
