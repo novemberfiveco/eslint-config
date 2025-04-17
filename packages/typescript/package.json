@@ -8,7 +8,7 @@
     "eslintconfig",
     "typescript"
   ],
-  "main": "index.mjs",
+  "main": "index.js",
   "homepage": "https://github.com/novemberfiveco/eslint-config#readme",
   "license": "MIT",
   "dependencies": {

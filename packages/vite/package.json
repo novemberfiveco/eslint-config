@@ -9,7 +9,7 @@
     "vite",
     "typescript"
   ],
-  "main": "index.mjs",
+  "main": "index.js",
   "author": "Adriaan Marain <adriaan@novemberfive.co>",
   "license": "MIT",
   "homepage": "https://github.com/novemberfiveco/eslint-config#readme",
