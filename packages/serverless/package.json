@@ -1,26 +1,20 @@
 {
   "name": "@novemberfiveco/eslint-config-serverless",
-  "version": "2.0.0",
+  "version": "2.0.0-beta.1",
   "private": false,
-  "description": "ESLint configuration for Next.js projects used by November Five",
+  "description": "ESLint configuration for Serverless projects used by November Five",
   "keywords": [
     "eslint",
     "eslintconfig",
-    "next.js",
-    "nextjs",
     "typescript"
   ],
   "main": "index.mjs",
   "homepage": "https://github.com/novemberfiveco/eslint-config#readme",
+  "author": "Min Jie Fan <minjie@novemberfive.co>",
   "license": "MIT",
   "dependencies": {
-    "@next/eslint-plugin-next": "15.3.0",
     "@novemberfiveco/eslint-config-typescript": "^0.1.3",
-    "@tanstack/eslint-plugin-query": "5.73.3",
-    "eslint-plugin-barrel-files": "3.0.1",
-    "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "5.2.0",
-    "eslint-plugin-storybook": "0.12.0"
+    "eslint-plugin-drizzle": "^0.2.3"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "10.0.0",
@@ -28,7 +22,6 @@
   },
   "peerDependencies": {
     "eslint": ">=9.24.0 <10.0.0",
-    "next": ">=14.2.0",
     "prettier": ">=3.5.0",
     "typescript": ">=4.8.4 <6.0.0"
   },
