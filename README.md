@@ -6,17 +6,57 @@ A collection of standardized ESLint configurations for various TypeScript enviro
 
 This monorepo consists of the following packages:
 
-- `@novemberfiveco/eslint-config-typescript` - Our base TypeScript ESLint configuration that all other packages extend from. Can also be used standalone for any TypeScript project or as the foundation for new framework-specific configurations.
-- `@novemberfiveco/eslint-config-next` - Next.js ESLint config (extends `@novemberfiveco/eslint-config-typescript`)
-- `@novemberfiveco/eslint-config-vite` - Vite ESLint config (extends `@novemberfiveco/eslint-config-typescript`)
-- `@novemberfiveco/eslint-config-serverless` - Serverless ESLint config (extends `@novemberfiveco/eslint-config-typescript`)
-- `@novemberfiveco/eslint-config-react-native` - [React Native ESLint config](https://github.com/novemberfiveco/eslint-config/blob/master/packages/react-native/README.md) (extends `@novemberfiveco/eslint-config-typescript`)
+- [`@novemberfiveco/eslint-config-typescript`](https://github.com/novemberfiveco/eslint-config/blob/master/packages/typescript/README.md) - Our base TypeScript ESLint configuration that all other packages extend from. Can also be used standalone for any TypeScript project or as the foundation for new framework-specific configurations.
+- [`@novemberfiveco/eslint-config-next`](https://github.com/novemberfiveco/eslint-config/blob/master/packages/next/README.md) - Next.js ESLint config
+- [`@novemberfiveco/eslint-config-vite`](https://github.com/novemberfiveco/eslint-config/blob/master/packages/vite/README.md) - Vite ESLint config
+- [`@novemberfiveco/eslint-config-serverless`](https://github.com/novemberfiveco/eslint-config/blob/master/packages/serverless/README.md) - Serverless ESLint config
+- [`@novemberfiveco/eslint-config-react-native`](https://github.com/novemberfiveco/eslint-config/blob/master/packages/react-native/README.md) - React Native ESLint config
 
 ## Installation
 
 ```bash
 npm install @novemberfiveco/eslint-config-{package-name} --save-dev
 ```
+
+### Configuration
+
+Create an `eslint.config.mjs` file in your project root with the following content:
+
+```javascript
+import novemberFiveConfig from "@novemberfiveco/eslint-config-{package-name}";
+import { defineConfig } from "eslint/config";
+
+export default defineConfig([novemberFiveConfig]);
+```
+
+### Customization
+
+You can extend and customize the configuration by adding your own rules and plugins. For example:
+
+```javascript
+import novemberFiveConfig from "@novemberfiveco/eslint-config-{package-name}";
+import { defineConfig } from "eslint/config";
+import pluginBarrelFiles from "eslint-plugin-barrel-files";
+
+export default defineConfig([
+  novemberFiveConfig,
+  {
+    plugins: {
+      "barrel-files": pluginBarrelFiles,
+    },
+    rules: {
+      "barrel-files/avoid-barrel-files": [
+        "error",
+        {
+          amountOfExportsToConsiderModuleAsBarrel: 3,
+        },
+      ],
+    },
+  },
+]);
+```
+
+If you find a useful rule or plugin that could benefit everyone, please consider making a PR to add it to the main configuration!
 
 ### Version Compatibility
 
