@@ -10,7 +10,7 @@
     "nextjs",
     "typescript"
   ],
-  "main": "index.js",
+  "main": "index.mjs",
   "homepage": "https://github.com/novemberfiveco/eslint-config#readme",
   "license": "MIT",
   "dependencies": {
