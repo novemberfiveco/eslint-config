@@ -34,6 +34,7 @@ const config = defineConfig([
           amountOfExportsToConsiderModuleAsBarrel: 3,
         },
       ],
+      "@tanstack/query/exhaustive-deps": "off",
     },
     settings: {
       react: {

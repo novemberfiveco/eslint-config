@@ -16,6 +16,8 @@ const config = defineConfig([
       globals: {
         ...globals.node,
         ...globals.browser,
+        ...globals.vitest,
+        ...globals.jest,
       },
     },
     plugins: {
@@ -24,6 +26,9 @@ const config = defineConfig([
       "no-relative-import-paths": pluginNoRelativeImportPaths,
     },
     rules: {
+      // To minimise the impact during ESLint v9 migration I turned this rule off. ideally this should be turned on
+      "no-empty": "off",
+
       "no-duplicate-imports": "warn",
       "no-restricted-globals": [
         "error",
@@ -48,6 +53,7 @@ const config = defineConfig([
         {
           allowSameFolder: true,
           rootDir: "src",
+          allowedDepth: 1,
         },
       ],
       "no-unused-vars": "off",
@@ -79,13 +85,15 @@ const config = defineConfig([
             ["^assets"],
             ["^packages"],
             ["^utils"],
+            ["^style"],
             [
-              "^types|^interfaces|^errors|^store|^constants|^middlewares|^theme",
+              "^types|^interfaces|^errors|^store|^constants|^middlewares|^theme|^services|^hooks|^connectors|^queries|^datasources|^repositories",
             ],
-            [
-              "^services|^hooks|^connectors|^queries|^datasources|^models|^schemas|^serializers|^deserializers",
-            ],
-            ["^database|^dynamodb|^clients|^repositories|^managers"],
+            ["^data"],
+            ["^models|^schemas|^serializers|^deserializers"],
+            ["^use-cases"],
+            ["^database|^dynamodb|^clients|^managers"],
+            ["^native"],
             ["^pages|^screens"],
             ["^components"],
             ["^\\."],

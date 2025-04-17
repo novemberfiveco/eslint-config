@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/eslint-config-typescript",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "private": false,
   "description": "Our base TypeScript ESLint configuration that all other packages extend from. Can also be used standalone for any TypeScript project or as the foundation for new framework-specific configurations.",
   "keywords": [
@@ -13,7 +13,6 @@
   "license": "MIT",
   "dependencies": {
     "@eslint/js": "9.24.0",
-    "@next/eslint-plugin-next": "15.3.0",
     "eslint-config-prettier": "10.1.2",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-no-relative-import-paths": "1.6.1",

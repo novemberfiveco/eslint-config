@@ -13,7 +13,7 @@
   "author": "Min Jie Fan <minjie@novemberfive.co>",
   "license": "MIT",
   "dependencies": {
-    "@novemberfiveco/eslint-config-typescript": "^0.1.3",
+    "@novemberfiveco/eslint-config-typescript": "^0.1.6",
     "eslint-plugin-drizzle": "^0.2.3"
   },
   "devDependencies": {
