@@ -1,5 +1,7 @@
 # @novemberfiveco/eslint-config-next
 
+[← Back to Main README](../../README.md)
+
 Next.js ESLint configuration used by November Five. This package extends our base TypeScript configuration with Next.js specific rules.
 
 ## Installation

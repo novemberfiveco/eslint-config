@@ -11,7 +11,7 @@
     "typescript"
   ],
   "main": "index.mjs",
-  "homepage": "https://github.com/novemberfiveco/eslint-config#readme",
+  "homepage": "https://github.com/novemberfiveco/eslint-config/blob/master/packages/next/README.md",
   "license": "MIT",
   "dependencies": {
     "@next/eslint-plugin-next": "15.3.0",

@@ -10,7 +10,7 @@
     "react native"
   ],
   "main": "index.cjs",
-  "homepage": "https://github.com/novemberfiveco/eslint-config#readme",
+  "homepage": "https://github.com/novemberfiveco/eslint-config/blob/master/packages/react-native/README.md",
   "author": "Lazlo De Bock <lazlo.debock@novemberfive.co>",
   "license": "MIT",
   "dependencies": {

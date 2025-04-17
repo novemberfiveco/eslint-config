@@ -1,5 +1,7 @@
 # @novemberfiveco/eslint-config-typescript
 
+[← Back to Main README](../../README.md)
+
 Base TypeScript ESLint configuration used by November Five. This package provides the foundation for all other framework-specific configurations.
 
 ## Installation

@@ -9,7 +9,7 @@
     "typescript"
   ],
   "main": "index.mjs",
-  "homepage": "https://github.com/novemberfiveco/eslint-config#readme",
+  "homepage": "https://github.com/novemberfiveco/eslint-config/blob/master/packages/typescript/README.md",
   "license": "MIT",
   "dependencies": {
     "@eslint/js": "9.24.0",

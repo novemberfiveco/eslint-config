@@ -13,7 +13,7 @@ const pluginSimpleImportSort = require("eslint-plugin-simple-import-sort");
 const pluginNoRelativeImportPaths = require("eslint-plugin-no-relative-import-paths");
 
 // This file differentiates from all the rest because react-native does not play nicely with esm yet. ref: https://github.com/facebook/metro/issues/916
-// Hence we need to use cjs here. I made it a bit reusable by importing the typescript rules.
+// I just copied over the typescript config here and added the react-native specific rules.
 const config = defineConfig([
   eslint.configs.recommended,
   tseslint.configs.recommended,

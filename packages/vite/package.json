@@ -12,7 +12,7 @@
   "main": "index.mjs",
   "author": "Adriaan Marain <adriaan@novemberfive.co>",
   "license": "MIT",
-  "homepage": "https://github.com/novemberfiveco/eslint-config#readme",
+  "homepage": "https://github.com/novemberfiveco/eslint-config/blob/master/packages/vite/README.md",
   "dependencies": {
     "@novemberfiveco/eslint-config-typescript": "0.1.6",
     "@tanstack/eslint-plugin-query": "5.73.3",

@@ -1,5 +1,7 @@
 # @novemberfiveco/eslint-config-vite
 
+[← Back to Main README](../../README.md)
+
 Vite ESLint configuration used by November Five. This package extends our base TypeScript configuration with Vite specific rules.
 
 ## Installation

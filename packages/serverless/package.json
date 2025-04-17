@@ -9,7 +9,7 @@
     "typescript"
   ],
   "main": "index.mjs",
-  "homepage": "https://github.com/novemberfiveco/eslint-config#readme",
+  "homepage": "https://github.com/novemberfiveco/eslint-config/blob/master/packages/serverless/README.md",
   "author": "Min Jie Fan <minjie@novemberfive.co>",
   "license": "MIT",
   "dependencies": {

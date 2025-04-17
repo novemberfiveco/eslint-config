@@ -1,5 +1,7 @@
 # @novemberfiveco/eslint-config-react-native
 
+[← Back to Main README](../../README.md)
+
 React Native ESLint configuration used by November Five. This package extends our base TypeScript configuration with React Native specific rules.
 
 ## Installation

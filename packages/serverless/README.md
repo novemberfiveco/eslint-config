@@ -1,5 +1,7 @@
 # @novemberfiveco/eslint-config-serverless
 
+[← Back to Main README](../../README.md)
+
 Serverless ESLint configuration used by November Five. This package extends our base TypeScript configuration with Serverless specific rules.
 
 ## Installation

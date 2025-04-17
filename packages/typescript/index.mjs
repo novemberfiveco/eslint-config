@@ -102,6 +102,7 @@ const config = defineConfig([
       ],
     },
   },
+  // Extend this file with more ignores if needed. This is just a starting point.
   globalIgnores([
     ".next",
     ".open-next",
