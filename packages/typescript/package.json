@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/eslint-config-typescript",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "private": false,
   "description": "Our base TypeScript ESLint configuration that all other packages extend from. Can also be used standalone for any TypeScript project or as the foundation for new framework-specific configurations.",
   "keywords": [

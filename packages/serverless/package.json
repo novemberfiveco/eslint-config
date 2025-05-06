@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/eslint-config-serverless",
-  "version": "2.0.0-beta.1",
+  "version": "1.0.0",
   "private": false,
   "description": "ESLint configuration for Serverless projects used by November Five",
   "keywords": [
