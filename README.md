@@ -58,6 +58,27 @@ export default defineConfig([
 
 If you find a useful rule or plugin that could benefit everyone, please consider making a PR to add it to the main configuration!
 
+### Ignoring Files and Directories
+
+ESLint provides a `globalIgnores` utility function to specify patterns for files and directories that should be excluded from linting:
+
+```javascript
+import novemberFiveConfig from "@novemberfiveco/eslint-config-{package-name}";
+import { defineConfig, globalIgnores } from "eslint/config";
+
+export default defineConfig([
+  novemberFiveConfig,
+  // Add your project-specific ignores (in addition to those already included in the base config)
+  globalIgnores(["dist", "coverage", "my-custom-build-output"]),
+]);
+```
+
+You can verify which files are being ignored using the ESLint Config Inspector mentioned below.
+
+For project-specific ignores, add them directly to your configuration. If you find yourself using the same ignore patterns across multiple projects, consider contributing them to our base TypeScript configuration.
+
+The base TypeScript configuration already includes several commonly ignored patterns. You can see the [current list of automatically ignored paths here](https://github.com/novemberfiveco/eslint-config/blob/master/packages/typescript/index.mjs).
+
 ### Version Compatibility
 
 - For ESLint v9 (Flat Config): Use the latest versions
@@ -71,6 +92,7 @@ We recommend using the [ESLint Config Inspector](https://github.com/eslint/confi
 
 - View all active rules and their configurations
 - See which files are being linted
+- Verify that your `globalIgnores` patterns are correctly excluding files and directories
 
 To use it, simply run:
 

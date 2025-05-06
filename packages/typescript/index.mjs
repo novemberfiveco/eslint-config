@@ -112,6 +112,7 @@ const config = defineConfig([
     "playwright-report",
     "graphql-env.d.ts",
     "global.d.ts",
+    "build",
   ]),
 ]);
 
