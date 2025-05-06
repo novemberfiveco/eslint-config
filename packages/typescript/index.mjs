@@ -113,6 +113,10 @@ const config = defineConfig([
     "graphql-env.d.ts",
     "global.d.ts",
     "build",
+    "android",
+    "ios",
+    "public/sw.js",
+    ".svgr",
   ]),
 ]);
 
