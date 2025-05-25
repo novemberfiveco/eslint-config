@@ -5,15 +5,15 @@
     "url": "git://github.com/novemberfiveco/eslint-config.git"
   },
   "engines": {
-    "node": ">=18.17.1",
-    "npm": ">= 9",
+    "node": ">=22.14",
+    "npm": ">= 10",
     "yarn": "please-use-npm"
   },
   "workspaces": [
     "packages/**"
   ],
   "scripts": {
-    "release:cra": "npm run release --workspace=@novemberfiveco/eslint-config-cra",
+    "release:typescript": "npm run release --workspace=@novemberfiveco/eslint-config-typescript",
     "release:next": "npm run release --workspace=@novemberfiveco/eslint-config-next",
     "release:vite": "npm run release --workspace=@novemberfiveco/eslint-config-vite",
     "release:serverless": "npm run release --workspace=@novemberfiveco/eslint-config-serverless",

@@ -1,6 +1,5 @@
-* @JanStevens
-packages/vite @AdrianMrn
+packages/vite @ThomasVanleynseele
 packages/next @ThomasVanleynseele
-packages/cra @ThomasVanleynseele
+packages/typescript @ThomasVanleynseele
 packages/serverless @minjie0501
 packages/react-native @LazloN5
