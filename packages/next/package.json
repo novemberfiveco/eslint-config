@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "@next/eslint-plugin-next": "15.3.0",
-    "@novemberfiveco/eslint-config-typescript": "0.1.6",
+    "@novemberfiveco/eslint-config-typescript": "2.0.0",
     "@tanstack/eslint-plugin-query": "5.73.3",
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "5.2.0",
