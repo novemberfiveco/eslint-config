@@ -1,4 +1,17 @@
+# Changelog
 
+## [2.0.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-next@1.0.0...eslint-config-next@2.0.0) (2025-05-26)
+
+### Features
+
+* add drizzle eslint plugin ([0b8bd99](https://github.com/novemberfiveco/eslint-config/commit/0b8bd99ab5c7a6321933982b4053a81dde1b3dbc))
+* ESLint v9 flat config ([e5b0d9a](https://github.com/novemberfiveco/eslint-config/commit/e5b0d9a90e1c462769097430e0b8be2b05bc2173))
+
+### Bug Fixes
+
+* package-lock out of sync ([#21](https://github.com/novemberfiveco/eslint-config/issues/21)) ([4115e43](https://github.com/novemberfiveco/eslint-config/commit/4115e4365da95cb7ec2c8173721900786246fba8))
+* package.lock ([c04f80c](https://github.com/novemberfiveco/eslint-config/commit/c04f80c0155dbf76da8e6466241fffb4b7f1d4c7))
+* typo release it ([#22](https://github.com/novemberfiveco/eslint-config/issues/22)) ([7190727](https://github.com/novemberfiveco/eslint-config/commit/7190727cc228a896639dd2cc82fec5520b051b78))
 
 ## [1.0.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-next@0.7.0...eslint-config-next@1.0.0) (2024-03-01)
 
