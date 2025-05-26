@@ -50,7 +50,7 @@
     "github": {
       "release": true,
       "autoGenerate": true,
-      "releaseName": "esling-config-react-native@${version}",
+      "releaseName": "eslint-config-react-native@${version}",
       "tokenRef": "GITHUB_TOKEN"
     },
     "plugins": {

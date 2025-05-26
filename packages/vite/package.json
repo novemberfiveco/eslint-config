@@ -43,7 +43,7 @@
     "github": {
       "release": true,
       "autoGenerate": true,
-      "releaseName": "esling-config-vite@${version}",
+      "releaseName": "eslint-config-vite@${version}",
       "tokenRef": "GITHUB_TOKEN"
     },
     "plugins": {
