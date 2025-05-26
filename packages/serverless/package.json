@@ -39,7 +39,7 @@
     "github": {
       "release": true,
       "autoGenerate": true,
-      "releaseName": "esling-config-serverless@${version}",
+      "releaseName": "eslint-config-serverless@${version}",
       "tokenRef": "GITHUB_TOKEN"
     },
     "plugins": {

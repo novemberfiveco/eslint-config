@@ -45,7 +45,7 @@
     "github": {
       "release": true,
       "autoGenerate": true,
-      "releaseName": "esling-config-next@${version}",
+      "releaseName": "eslint-config-next@${version}",
       "tokenRef": "GITHUB_TOKEN"
     },
     "plugins": {

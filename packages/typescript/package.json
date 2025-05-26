@@ -41,7 +41,7 @@
     "github": {
       "release": true,
       "autoGenerate": true,
-      "releaseName": "esling-config-typescript@${version}",
+      "releaseName": "eslint-config-typescript@${version}",
       "tokenRef": "GITHUB_TOKEN"
     },
     "plugins": {
