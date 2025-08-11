@@ -12,6 +12,10 @@
   "workspaces": [
     "packages/**"
   ],
+  "devDependencies": {
+    "@release-it/conventional-changelog": "10.0.1",
+    "release-it": "19.0.4"
+  },
   "scripts": {
     "release:typescript": "npm run release --workspace=@novemberfiveco/eslint-config-typescript",
     "release:next": "npm run release --workspace=@novemberfiveco/eslint-config-next",
