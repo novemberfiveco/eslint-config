@@ -14,16 +14,12 @@
   "homepage": "https://github.com/novemberfiveco/eslint-config/blob/master/packages/next/README.md",
   "license": "MIT",
   "dependencies": {
-    "@next/eslint-plugin-next": "15.3.0",
-    "@novemberfiveco/eslint-config-typescript": "2.0.0",
-    "@tanstack/eslint-plugin-query": "5.73.3",
-    "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "5.2.0",
-    "eslint-plugin-storybook": "0.12.0"
-  },
-  "devDependencies": {
-    "@release-it/conventional-changelog": "10.0.0",
-    "release-it": "18.1.2"
+    "@next/eslint-plugin-next": "^15.4.6",
+    "@novemberfiveco/eslint-config-typescript": "^2.0.0",
+    "@tanstack/eslint-plugin-query": "^5.83.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-storybook": "^9.1.1"
   },
   "peerDependencies": {
     "eslint": ">=9.24.0 <10.0.0",

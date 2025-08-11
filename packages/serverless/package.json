@@ -13,12 +13,8 @@
   "author": "Min Jie Fan <minjie@novemberfive.co>",
   "license": "MIT",
   "dependencies": {
-    "@novemberfiveco/eslint-config-typescript": "2.0.0",
+    "@novemberfiveco/eslint-config-typescript": "^2.0.0",
     "eslint-plugin-drizzle": "^0.2.3"
-  },
-  "devDependencies": {
-    "@release-it/conventional-changelog": "10.0.0",
-    "release-it": "18.1.2"
   },
   "peerDependencies": {
     "eslint": ">=9.24.0 <10.0.0",
