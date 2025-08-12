@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-vite@2.0.0...eslint-config-vite@2.1.0) (2025-08-12)
+
+### Features
+
+* add a11y eslint plugin for vite & next.js ([#25](https://github.com/novemberfiveco/eslint-config/issues/25)) ([b4249a5](https://github.com/novemberfiveco/eslint-config/commit/b4249a56d898bf490d5bba80bf29e1448ad384d5))
+
 ## [2.0.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-vite@1.0.0...eslint-config-vite@2.0.0) (2025-05-26)
 
 ### Features
