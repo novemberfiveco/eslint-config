@@ -1,4 +1,16 @@
+# Changelog
 
+## [2.0.1](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-serverless@1.0.0...eslint-config-serverless@2.0.1) (2025-08-12)
+
+### Features
+
+* add a11y eslint plugin for vite & next.js ([#25](https://github.com/novemberfiveco/eslint-config/issues/25)) ([b4249a5](https://github.com/novemberfiveco/eslint-config/commit/b4249a56d898bf490d5bba80bf29e1448ad384d5))
+* ESLint v9 flat config ([e5b0d9a](https://github.com/novemberfiveco/eslint-config/commit/e5b0d9a90e1c462769097430e0b8be2b05bc2173))
+
+### Bug Fixes
+
+* package-lock out of sync ([#21](https://github.com/novemberfiveco/eslint-config/issues/21)) ([4115e43](https://github.com/novemberfiveco/eslint-config/commit/4115e4365da95cb7ec2c8173721900786246fba8))
+* typo release it ([#22](https://github.com/novemberfiveco/eslint-config/issues/22)) ([7190727](https://github.com/novemberfiveco/eslint-config/commit/7190727cc228a896639dd2cc82fec5520b051b78))
 
 ## [1.0.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-serverless@0.4.1...eslint-config-serverless@1.0.0) (2024-07-22)
 
