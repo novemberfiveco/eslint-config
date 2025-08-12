@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.0.1](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-react-native@2.0.0...eslint-config-react-native@2.0.1) (2025-08-12)
+
+### Features
+
+* add a11y eslint plugin for vite & next.js ([#25](https://github.com/novemberfiveco/eslint-config/issues/25)) ([b4249a5](https://github.com/novemberfiveco/eslint-config/commit/b4249a56d898bf490d5bba80bf29e1448ad384d5))
+
+### Bug Fixes
+
+* typo release it ([#22](https://github.com/novemberfiveco/eslint-config/issues/22)) ([7190727](https://github.com/novemberfiveco/eslint-config/commit/7190727cc228a896639dd2cc82fec5520b051b78))
+
 ## [2.0.0](https://github.com/novemberfiveco/eslint-config/compare/eslint-config-react-native@0.7.0...eslint-config-react-native@2.0.0) (2025-05-26)
 
 ### Features
