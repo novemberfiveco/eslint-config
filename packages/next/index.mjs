@@ -4,6 +4,7 @@ import { defineConfig } from "eslint/config";
 import pluginReact from "eslint-plugin-react";
 import pluginReactHooks from "eslint-plugin-react-hooks";
 import pluginStorybook from "eslint-plugin-storybook";
+import pluginJsxA11y from "eslint-plugin-jsx-a11y";
 
 import typescriptConfig from "@novemberfiveco/eslint-config-typescript";
 
@@ -15,7 +16,7 @@ const config = defineConfig([
   pluginReactQuery.configs["flat/recommended"],
   pluginStorybook.configs["flat/recommended"],
   pluginNext.flatConfig["recommended"],
-
+  pluginJsxA11y.flatConfigs["recommended"],
   {
     rules: {
       // We don't want console statements in the codebase
@@ -23,6 +24,14 @@ const config = defineConfig([
 
       // This rule often results in False Positives.
       "@tanstack/query/exhaustive-deps": "off",
+      // Make sure our a11y plugin catches Next.js Image components
+      "jsx-a11y/alt-text": [
+        "error",
+        {
+          elements: ["img"],
+          img: ["Image"],
+        },
+      ],
     },
     settings: {
       react: {

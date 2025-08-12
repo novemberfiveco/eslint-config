@@ -14,8 +14,9 @@
   "license": "MIT",
   "homepage": "https://github.com/novemberfiveco/eslint-config/blob/master/packages/vite/README.md",
   "dependencies": {
-    "@novemberfiveco/eslint-config-typescript": "^2.0.0",
+    "@novemberfiveco/eslint-config-typescript": "^2.0.1",
     "@tanstack/eslint-plugin-query": "^5.83.1",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-storybook": "^9.1.1"
