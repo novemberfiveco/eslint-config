@@ -41,8 +41,7 @@ const config = defineConfig([
     },
     rules: {
       /** Shared rules from Typescript config */
-      // To minimise the impact during ESLint v9 migration I turned this rule off. ideally this should be turned on
-      "no-empty": "off",
+      "no-empty": "warn",
 
       "no-duplicate-imports": "warn",
       "no-restricted-globals": [

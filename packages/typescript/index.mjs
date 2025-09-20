@@ -3,6 +3,8 @@ import pluginConfigPrettier from "eslint-config-prettier/flat";
 import pluginImport from "eslint-plugin-import";
 import pluginNoRelativeImportPaths from "eslint-plugin-no-relative-import-paths";
 import pluginSimpleImportSort from "eslint-plugin-simple-import-sort";
+import pluginJsdoc from "eslint-plugin-jsdoc";
+
 import globals from "globals";
 import eslint from "@eslint/js";
 import tseslint from "typescript-eslint";
@@ -26,8 +28,7 @@ const config = defineConfig([
       "no-relative-import-paths": pluginNoRelativeImportPaths,
     },
     rules: {
-      // To minimise the impact during ESLint v9 migration I turned this rule off. ideally this should be turned on
-      "no-empty": "off",
+      "no-empty": "warn",
 
       "no-duplicate-imports": "warn",
       "no-restricted-globals": [
@@ -71,6 +72,15 @@ const config = defineConfig([
         "warn",
         { default: "generic", readonly: "generic" },
       ],
+      "@typescript-eslint/consistent-type-definitions": "error",
+      "@typescript-eslint/naming-convention": [
+        "error",
+        {
+          selector: ["enumMember", "enum"],
+          format: ["StrictPascalCase"],
+        },
+      ],
+
       "import/no-anonymous-default-export": "off",
       "import/newline-after-import": ["error", { count: 1 }],
       "simple-import-sort/exports": "warn",
@@ -102,9 +112,39 @@ const config = defineConfig([
       ],
     },
   },
+  {
+    files: ["**/*utils.ts", "**/utils/**/*.ts"],
+    ignores: ["**/*__tests__/**"],
+    plugins: {
+      jsdoc: pluginJsdoc,
+    },
+    rules: {
+      ...pluginJsdoc.configs["flat/recommended-typescript"].rules,
+      "jsdoc/require-jsdoc": [
+        "warn",
+        {
+          publicOnly: false,
+          require: {
+            ArrowFunctionExpression: true,
+            FunctionDeclaration: true,
+            FunctionExpression: true,
+            MethodDefinition: false,
+            ClassDeclaration: false,
+            ClassExpression: false,
+          },
+          exemptEmptyConstructors: true,
+          exemptEmptyFunctions: false,
+        },
+      ],
+    },
+  },
   // Extend this file with more ignores if needed. This is just a starting point.
   globalIgnores([
+    "**/_templates/**",
     ".next",
+    "next-env.d.ts",
+    "**/*.d.json.ts",
+    "storybook-static",
     ".open-next",
     ".sst",
     "src/services/avo/Avo.ts",
