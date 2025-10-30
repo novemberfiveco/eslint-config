@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/eslint-config-next",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "private": false,
   "description": "ESLint configuration for Next.js projects used by November Five",
   "keywords": [
