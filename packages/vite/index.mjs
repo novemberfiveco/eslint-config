@@ -11,7 +11,7 @@ const config = defineConfig([
   typescriptConfig,
   pluginReact.configs.flat["recommended"],
   pluginReact.configs.flat["jsx-runtime"],
-  pluginReactHooks.configs["recommended-latest"],
+  pluginReactHooks.configs.flat["recommended-latest"],
   pluginReactQuery.configs["flat/recommended"],
   pluginStorybook.configs["flat/recommended"],
   pluginJsxA11y.flatConfigs["recommended"],
