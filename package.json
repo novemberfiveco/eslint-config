@@ -5,8 +5,8 @@
     "url": "git://github.com/novemberfiveco/eslint-config.git"
   },
   "engines": {
-    "node": ">=22.14",
-    "npm": ">= 10",
+    "node": ">=24.11",
+    "npm": ">= 11",
     "yarn": "please-use-npm"
   },
   "workspaces": [
@@ -14,7 +14,7 @@
   ],
   "devDependencies": {
     "@release-it/conventional-changelog": "10.0.1",
-    "release-it": "19.0.4"
+    "release-it": "19.0.5"
   },
   "scripts": {
     "release:typescript": "npm run release --workspace=@novemberfiveco/eslint-config-typescript",

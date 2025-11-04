@@ -1,6 +1,6 @@
 {
   "name": "@novemberfiveco/eslint-config-next",
-  "version": "2.1.0",
+  "version": "2.2.2",
   "private": false,
   "description": "ESLint configuration for Next.js projects used by November Five",
   "keywords": [
@@ -14,13 +14,13 @@
   "homepage": "https://github.com/novemberfiveco/eslint-config/blob/master/packages/next/README.md",
   "license": "MIT",
   "dependencies": {
-    "@next/eslint-plugin-next": "^15.4.6",
-    "@novemberfiveco/eslint-config-typescript": "^2.0.1",
-    "@tanstack/eslint-plugin-query": "^5.83.1",
+    "@next/eslint-plugin-next": "^15.5.6",
+    "@novemberfiveco/eslint-config-typescript": "^2.0.2",
+    "@tanstack/eslint-plugin-query": "^5.91.2",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-storybook": "^9.1.1"
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-storybook": "^10.0.1"
   },
   "peerDependencies": {
     "eslint": ">=9.24.0 <10.0.0",
