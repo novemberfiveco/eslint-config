@@ -29,4 +29,3 @@ This configuration includes the following plugins in addition to those from `@no
 - [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react) - React specific linting rules
 - [`eslint-plugin-react-hooks`](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks) - Rules for React Hooks
 - [`eslint-plugin-react-native`](https://github.com/Intellicode/eslint-plugin-react-native) - React Native specific rules
-- [`eslint-plugin-storybook`](https://github.com/storybookjs/eslint-plugin-storybook) - Storybook specific rules
