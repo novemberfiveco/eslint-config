@@ -2,7 +2,6 @@ const pluginReactQuery = require("@tanstack/eslint-plugin-query");
 const { defineConfig } = require("eslint/config");
 const pluginReact = require("eslint-plugin-react");
 const pluginReactHooks = require("eslint-plugin-react-hooks");
-const pluginStorybook = require("eslint-plugin-storybook");
 const pluginReactNative = require("eslint-plugin-react-native");
 const pluginConfigPrettier = require("eslint-config-prettier/flat");
 const eslint = require("@eslint/js");
@@ -22,8 +21,6 @@ const config = defineConfig([
   pluginReact.configs.flat["jsx-runtime"],
   pluginReactHooks.configs.flat["recommended"],
   pluginReactQuery.configs["flat/recommended"],
-  pluginStorybook.configs["flat/recommended"],
-
   {
     languageOptions: {
       globals: {
